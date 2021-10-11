@@ -1,0 +1,12 @@
+!pip install ktrain
+!pip install seaborn
+!pip install plotly
+!pip install -U spacy
+!python -m spacy download en_core_web_sm
+!pip install nltk
+import nltk
+nltk.download('punkt')
+nltk.download("stopwords")
+!pip install cleantext
+!pip install emoji
+!pip install contractions
